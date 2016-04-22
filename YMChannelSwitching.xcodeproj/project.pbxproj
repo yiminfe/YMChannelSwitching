@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041B81AB1CC8E481002A829C /* YMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B81AA1CC8E481002A829C /* YMCollectionViewCell.m */; };
+		041B81AE1CC921B1002A829C /* YMCollectionViewCellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B81AD1CC921B1002A829C /* YMCollectionViewCellTwo.m */; };
+		04319F3C1CC774AF00643D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319F361CC774AF00643D72 /* AppDelegate.m */; };
+		04319F3D1CC774AF00643D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04319F371CC774AF00643D72 /* Assets.xcassets */; };
+		04319F3E1CC774AF00643D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04319F381CC774AF00643D72 /* LaunchScreen.storyboard */; };
+		04319F401CC774AF00643D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319F3B1CC774AF00643D72 /* main.m */; };
+		04319F441CC774E100643D72 /* YMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319F431CC774E100643D72 /* YMViewController.m */; };
+		045700CD1CC804AD008D45E9 /* UIView+ym_extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 045700C41CC804AD008D45E9 /* UIView+ym_extension.m */; };
+		045700CE1CC804AD008D45E9 /* YMChannelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 045700C61CC804AD008D45E9 /* YMChannelButton.m */; };
+		045700CF1CC804AD008D45E9 /* YMChannelSwitching.m in Sources */ = {isa = PBXBuildFile; fileRef = 045700C81CC804AD008D45E9 /* YMChannelSwitching.m */; };
+		045700D01CC804AD008D45E9 /* YMChannelSwitchingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 045700CA1CC804AD008D45E9 /* YMChannelSwitchingLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041B81A91CC8E481002A829C /* YMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCollectionViewCell.h; sourceTree = "<group>"; };
+		041B81AA1CC8E481002A829C /* YMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCollectionViewCell.m; sourceTree = "<group>"; };
+		041B81AC1CC921B1002A829C /* YMCollectionViewCellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCollectionViewCellTwo.h; sourceTree = "<group>"; };
+		041B81AD1CC921B1002A829C /* YMCollectionViewCellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCollectionViewCellTwo.m; sourceTree = "<group>"; };
+		04319F1A1CC7744000643D72 /* YMChannelSwitching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMChannelSwitching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04319F351CC774AF00643D72 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04319F361CC774AF00643D72 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04319F371CC774AF00643D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04319F391CC774AF00643D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04319F3A1CC774AF00643D72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04319F3B1CC774AF00643D72 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04319F421CC774E100643D72 /* YMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMViewController.h; sourceTree = "<group>"; };
+		04319F431CC774E100643D72 /* YMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMViewController.m; sourceTree = "<group>"; };
+		045700C31CC804AD008D45E9 /* UIView+ym_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ym_extension.h"; sourceTree = "<group>"; };
+		045700C41CC804AD008D45E9 /* UIView+ym_extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ym_extension.m"; sourceTree = "<group>"; };
+		045700C51CC804AD008D45E9 /* YMChannelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMChannelButton.h; sourceTree = "<group>"; };
+		045700C61CC804AD008D45E9 /* YMChannelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMChannelButton.m; sourceTree = "<group>"; };
+		045700C71CC804AD008D45E9 /* YMChannelSwitching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMChannelSwitching.h; sourceTree = "<group>"; };
+		045700C81CC804AD008D45E9 /* YMChannelSwitching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMChannelSwitching.m; sourceTree = "<group>"; };
+		045700C91CC804AD008D45E9 /* YMChannelSwitchingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMChannelSwitchingLayout.h; sourceTree = "<group>"; };
+		045700CA1CC804AD008D45E9 /* YMChannelSwitchingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMChannelSwitchingLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04319F171CC7744000643D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04319F111CC7744000643D72 = {
+			isa = PBXGroup;
+			children = (
+				04319F411CC774CB00643D72 /* YMChannelSwitching */,
+				04319F341CC774AF00643D72 /* YMChannelSwitchingExample */,
+				04319F1B1CC7744000643D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04319F1B1CC7744000643D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04319F1A1CC7744000643D72 /* YMChannelSwitching.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04319F341CC774AF00643D72 /* YMChannelSwitchingExample */ = {
+			isa = PBXGroup;
+			children = (
+				04319F351CC774AF00643D72 /* AppDelegate.h */,
+				04319F361CC774AF00643D72 /* AppDelegate.m */,
+				04319F421CC774E100643D72 /* YMViewController.h */,
+				04319F431CC774E100643D72 /* YMViewController.m */,
+				041B81A91CC8E481002A829C /* YMCollectionViewCell.h */,
+				041B81AA1CC8E481002A829C /* YMCollectionViewCell.m */,
+				041B81AC1CC921B1002A829C /* YMCollectionViewCellTwo.h */,
+				041B81AD1CC921B1002A829C /* YMCollectionViewCellTwo.m */,
+				04319F371CC774AF00643D72 /* Assets.xcassets */,
+				04319F381CC774AF00643D72 /* LaunchScreen.storyboard */,
+				04319F3A1CC774AF00643D72 /* Info.plist */,
+				04319F3B1CC774AF00643D72 /* main.m */,
+			);
+			path = YMChannelSwitchingExample;
+			sourceTree = "<group>";
+		};
+		04319F411CC774CB00643D72 /* YMChannelSwitching */ = {
+			isa = PBXGroup;
+			children = (
+				045700C71CC804AD008D45E9 /* YMChannelSwitching.h */,
+				045700C81CC804AD008D45E9 /* YMChannelSwitching.m */,
+				045700C91CC804AD008D45E9 /* YMChannelSwitchingLayout.h */,
+				045700CA1CC804AD008D45E9 /* YMChannelSwitchingLayout.m */,
+				045700C51CC804AD008D45E9 /* YMChannelButton.h */,
+				045700C61CC804AD008D45E9 /* YMChannelButton.m */,
+				045700C31CC804AD008D45E9 /* UIView+ym_extension.h */,
+				045700C41CC804AD008D45E9 /* UIView+ym_extension.m */,
+			);
+			path = YMChannelSwitching;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04319F191CC7744000643D72 /* YMChannelSwitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04319F311CC7744000643D72 /* Build configuration list for PBXNativeTarget "YMChannelSwitching" */;
+			buildPhases = (
+				04319F161CC7744000643D72 /* Sources */,
+				04319F171CC7744000643D72 /* Frameworks */,
+				04319F181CC7744000643D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMChannelSwitching;
+			productName = YMChannelSwitching;
+			productReference = 04319F1A1CC7744000643D72 /* YMChannelSwitching.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04319F121CC7744000643D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YiMin;
+				TargetAttributes = {
+					04319F191CC7744000643D72 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3YYUCKAF23;
+					};
+				};
+			};
+			buildConfigurationList = 04319F151CC7744000643D72 /* Build configuration list for PBXProject "YMChannelSwitching" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04319F111CC7744000643D72;
+			productRefGroup = 04319F1B1CC7744000643D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04319F191CC7744000643D72 /* YMChannelSwitching */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04319F181CC7744000643D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04319F3E1CC774AF00643D72 /* LaunchScreen.storyboard in Resources */,
+				04319F3D1CC774AF00643D72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04319F161CC7744000643D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04319F441CC774E100643D72 /* YMViewController.m in Sources */,
+				04319F401CC774AF00643D72 /* main.m in Sources */,
+				041B81AE1CC921B1002A829C /* YMCollectionViewCellTwo.m in Sources */,
+				045700CD1CC804AD008D45E9 /* UIView+ym_extension.m in Sources */,
+				045700D01CC804AD008D45E9 /* YMChannelSwitchingLayout.m in Sources */,
+				045700CE1CC804AD008D45E9 /* YMChannelButton.m in Sources */,
+				045700CF1CC804AD008D45E9 /* YMChannelSwitching.m in Sources */,
+				041B81AB1CC8E481002A829C /* YMCollectionViewCell.m in Sources */,
+				04319F3C1CC774AF00643D72 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04319F381CC774AF00643D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04319F391CC774AF00643D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04319F2F1CC7744000643D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04319F301CC7744000643D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04319F321CC7744000643D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMChannelSwitchingExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Proficient-in-ios.YMChannelSwitching";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04319F331CC7744000643D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMChannelSwitchingExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Proficient-in-ios.YMChannelSwitching";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04319F151CC7744000643D72 /* Build configuration list for PBXProject "YMChannelSwitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04319F2F1CC7744000643D72 /* Debug */,
+				04319F301CC7744000643D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04319F311CC7744000643D72 /* Build configuration list for PBXNativeTarget "YMChannelSwitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04319F321CC7744000643D72 /* Debug */,
+				04319F331CC7744000643D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04319F121CC7744000643D72 /* Project object */;
+}
