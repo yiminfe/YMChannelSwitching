@@ -10,7 +10,7 @@
 </ul>
 <p>GitHub：<a href="https://github.com/iosdeveloperSVIP"  target="_blank">iosdeveloperSVIP</a>
  &nbsp;&nbsp;&nbsp;&nbsp;邮箱：<a href="mailto:iosdeveloper@vip.163.com">iosdeveloper@vip.163.com</a><p>
-<h4>亲爱的各位同行，如果在使用中出现bug，请联系邮箱:<a href="mailto:iosdeveloper@vip.163.com">iosdeveloper@vip.163.com</a>，如果使用不错的话请帮我点下右上角星星UnStar，非常感谢</h4>
+<h4>亲爱的各位同行，如果在使用中出现bug，请联系邮箱:<a href="mailto:iosdeveloper@vip.163.com">iosdeveloper@vip.163.com</a>，如果使用不错的话请帮我点下右上角星星Star，非常感谢</h4>
 <h1>操作目录</h1>
 <ul>
 <li><a href="#defaultstyles">默认方式1:频道和cell直接添加到视图</a>
@@ -66,4 +66,4 @@ YMChannelSwitching *channerView = [[YMChannelSwitching alloc]
 <br>channerView.ym_channersView.frame = CGRectMake(0, 50, 300, 50);//还有其他UIScrollView属性可扩展
 <br>//设置ym_collectionView视图
 <br>channerView.ym_collectionView.frame = CGRectMake(0, 50, 300, 300);//其他UICollectionView属性也可以扩展</span></pre></div>
-<h4>亲爱的各位同行，如果你已经浏览到这，请帮我点下右上角星星UnStar，非常感谢</h4>
+<h4>亲爱的各位同行，如果你已经浏览到这，请帮我点下右上角星星Star，非常感谢</h4>
